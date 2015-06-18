@@ -1,14 +1,16 @@
 {
-  "name": "exp",
+  "name": "firstserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "1_mongoose_connect.js",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "mongoose": "^3.8.8"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"
